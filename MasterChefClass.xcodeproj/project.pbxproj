@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8022B1152613CD9F004A5623 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022B1142613CD9F004A5623 /* ModelData.swift */; };
+		8022B1192613CDDD004A5623 /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022B1182613CDDD004A5623 /* Chef.swift */; };
+		8022B11C2613CE08004A5623 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022B11B2613CE08004A5623 /* Recipe.swift */; };
 		804572B72613ACB6004EF029 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804572B62613ACB6004EF029 /* FeedView.swift */; };
 		804572BE2613B0E6004EF029 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804572BD2613B0E6004EF029 /* AgendaView.swift */; };
 		804572C12613B0F6004EF029 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804572C02613B0F6004EF029 /* ProfileView.swift */; };
 		804572C42613B162004EF029 /* ChefsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804572C32613B162004EF029 /* ChefsView.swift */; };
+		8074024E2613D36B00F21467 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8074024D2613D36B00F21467 /* data.json */; };
 		80F5CF70261258C500C547B9 /* MasterChefClassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5CF6F261258C500C547B9 /* MasterChefClassApp.swift */; };
 		80F5CF72261258C500C547B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5CF71261258C500C547B9 /* ContentView.swift */; };
 		80F5CF74261258C800C547B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F5CF73261258C800C547B9 /* Assets.xcassets */; };
@@ -18,10 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8022B1142613CD9F004A5623 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		8022B1182613CDDD004A5623 /* Chef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		8022B11B2613CE08004A5623 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		804572B62613ACB6004EF029 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		804572BD2613B0E6004EF029 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
 		804572C02613B0F6004EF029 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		804572C32613B162004EF029 /* ChefsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefsView.swift; sourceTree = "<group>"; };
+		8074024D2613D36B00F21467 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		80F5CF6C261258C500C547B9 /* MasterChefClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterChefClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F5CF6F261258C500C547B9 /* MasterChefClassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterChefClassApp.swift; sourceTree = "<group>"; };
 		80F5CF71261258C500C547B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8022B1122613CD42004A5623 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8074024D2613D36B00F21467 /* data.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8022B1132613CD74004A5623 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8022B1142613CD9F004A5623 /* ModelData.swift */,
+				8022B1182613CDDD004A5623 /* Chef.swift */,
+				8022B11B2613CE08004A5623 /* Recipe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		804572B92613AD23004EF029 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +98,8 @@
 		80F5CF6E261258C500C547B9 /* MasterChefClass */ = {
 			isa = PBXGroup;
 			children = (
+				8022B1132613CD74004A5623 /* Model */,
+				8022B1122613CD42004A5623 /* Resources */,
 				804572B92613AD23004EF029 /* View */,
 				80F5CF6F261258C500C547B9 /* MasterChefClassApp.swift */,
 				80F5CF73261258C800C547B9 /* Assets.xcassets */,
@@ -147,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F5CF77261258C800C547B9 /* Preview Assets.xcassets in Resources */,
+				8074024E2613D36B00F21467 /* data.json in Resources */,
 				80F5CF74261258C800C547B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,9 +190,12 @@
 				804572C42613B162004EF029 /* ChefsView.swift in Sources */,
 				804572B72613ACB6004EF029 /* FeedView.swift in Sources */,
 				80F5CF72261258C500C547B9 /* ContentView.swift in Sources */,
+				8022B1192613CDDD004A5623 /* Chef.swift in Sources */,
 				804572C12613B0F6004EF029 /* ProfileView.swift in Sources */,
 				804572BE2613B0E6004EF029 /* AgendaView.swift in Sources */,
+				8022B11C2613CE08004A5623 /* Recipe.swift in Sources */,
 				80F5CF70261258C500C547B9 /* MasterChefClassApp.swift in Sources */,
+				8022B1152613CD9F004A5623 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
