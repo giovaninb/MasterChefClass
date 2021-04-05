@@ -20,7 +20,7 @@ struct FeedView: View {
                     .frame(height: 60)
             }
             HStack(alignment: .center) {
-                Image("empanada")
+                Image("banner")
                     .resizable()
                     
                     .frame(height:150)
@@ -34,59 +34,33 @@ struct FeedView: View {
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
-//                ScrollView(.horizontal, showsIndicators: false){
-//                    HStack(spacing: 13) {
-//                        ForEach(chefs, id: \.id) { chef in
-//                            ZStack(alignment: .center) {
-//                                Image("fundo")
-//                                    .resizable()
-//                                    .scaledToFill()
-//                                    .frame(width: 190, height: 165)
-//                                Image(chef.imageName)
-//                                    .resizable()
-//                                    .scaledToFit()
-//                                    .frame(width: 150, height: 220)
-//                                Text(chef.name)
-//                                    .font(.body)
-//                                    .foregroundColor(.black)
-//                                    .bold()
-//                                    .multilineTextAlignment(.trailing)
-//                                    .lineLimit(nil)
-//                                    .frame(width: 85, height: 110)
-//
-//
-//                            }
-//
-//                        }
-//                    }
-//
-//                }
+
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 4) {
                         ForEach(chefs, id: \.id) { chef in
-                            ZStack(alignment: .topTrailing) {
-                                Image(chef.imageName)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 210, height: 220)
-                                Text(chef.name)
-                                    .font(.body)
-                                    .foregroundColor(.black)
-                                    .bold()
-                                    .multilineTextAlignment(.leading)
-                                    .lineLimit(nil)
-                                    .frame(width: 85, height: 110)
-                                
-                                
+                            NavigationLink(destination: ChefsView()) {
+                                ZStack(alignment: .topTrailing) {
+                                    Image(chef.imageName)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 210, height: 220)
+                                    Text(chef.name)
+                                        .font(.body)
+                                        .foregroundColor(.black)
+                                        .bold()
+                                        .multilineTextAlignment(.leading)
+                                        .lineLimit(nil)
+                                        .frame(width: 85, height: 110)
+                                    
+                                }
                             }
-                            
                         }
                     }
                     
                 }
                 VStack {
                     HStack {
-                        Text("Recipes")
+                        Text("Receitas")
                             .font(.largeTitle)
                             .bold()
                             .foregroundColor(Color(#colorLiteral(red: 0.8968908191, green: 0.1890383065, blue: 0.243498534, alpha: 1)))
@@ -100,17 +74,21 @@ struct FeedView: View {
                     HStack(spacing: 10) {
                         ForEach(0..<5) { index in
                             // TODO Text seems an important feature for acessibility
-                            Image("empanada")
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 130, height: 120)
-                                .cornerRadius(30)
+                            VStack{
+                                Image("empanada")
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 130, height: 120)
+                                    .cornerRadius(30)
+                                Text("Empanada")
+                            }
                         }
                     }
                     
                 }
             }
             .padding(.leading, 7.0)
+            Spacer()
         
         }
         
