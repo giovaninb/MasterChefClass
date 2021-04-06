@@ -12,7 +12,7 @@ struct Chef: Hashable, Codable {
     var id: Int
     var name: String
     
-    private var imageName: String
+    var imageName: String
     var image: Image {
         Image(imageName)
     }

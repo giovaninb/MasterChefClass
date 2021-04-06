@@ -3,17 +3,16 @@
         "id": 1001,
         "name": "Paola Carosella",
         "imageName": "paola",
-        "imageBName": "paola-carosella",
         "recipe":
         [
             {
-                "idRecipe": 101,
+                "id": 101,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
             },
             {
-                "idRecipe": 102,
+                "id": 102,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
@@ -24,18 +23,17 @@
     {
         "id": 2001,
         "name": "Henrique Fogaça",
-        "imageName": "paola",
-        "imageBName": "paola-carosella",
+        "imageName": "fogaca",
         "recipe":
         [
             {
-                "idRecipe": 201,
+                "id": 201,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
             },
             {
-                "idRecipe": 202,
+                "id": 202,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
@@ -46,18 +44,17 @@
     {
         "id": 3001,
         "name": "Érick Jacquin",
-        "imageName": "paola",
-        "imageBName": "paola-carosella",
+        "imageName": "jacquin",
         "recipe":
         [
             {
-                "idRecipe": 301,
+                "id": 301,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
             },
             {
-                "idRecipe": 302,
+                "id": 302,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
