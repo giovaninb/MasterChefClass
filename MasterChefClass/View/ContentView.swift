@@ -20,35 +20,6 @@ struct ContentView: View {
     @State private var percent: Float = 50.0
     
     var body: some View {
-<<<<<<< HEAD
-        TabView(selection: $selection) {
-                FeedView(chefs: chefsData)
-                    .tabItem {
-                        Image(systemName: "square.grid.2x2")
-                        Text("Feed")
-                    }.tag(Tab.feed)
-                ChefsView(chef: chefsData[0])
-                    .padding()
-                    .tabItem {
-                        Image(systemName: "person.3.fill")
-                        Text("Chefs")
-                    }.tag(Tab.chefs)
-                AgendaView()
-                    .padding()
-                    .tabItem {
-                        Image(systemName: "calendar")
-                        Text("Agenda")
-                    }.tag(Tab.agenda)
-                ProfileView()
-                    .padding()
-                    .tabItem {
-                        Image(systemName: "person")
-                        Text("Profile")
-                    }.tag(Tab.profile)
-        }.accentColor(Color(#colorLiteral(red: 0.8968908191, green: 0.1890383065, blue: 0.243498534, alpha: 1)))
-        .onAppear() {
-            UITabBar.appearance().barTintColor = #colorLiteral(red: 0.9018815756, green: 0.9020115733, blue: 0.901853323, alpha: 1)
-=======
         Group {
             if isWalkthroughViewShowing {
                 WalkthroughView(isWalkthroughViewShowing: $isWalkthroughViewShowing, percent: $percent)
@@ -84,7 +55,6 @@ struct ContentView: View {
                 }
             }
 
->>>>>>> 35839c7... Onboarding screens with animation and AgendaView did finished.
         }
     }
 }
