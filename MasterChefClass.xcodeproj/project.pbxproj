@@ -19,11 +19,22 @@
 		80F5CF72261258C500C547B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5CF71261258C500C547B9 /* ContentView.swift */; };
 		80F5CF74261258C800C547B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F5CF73261258C800C547B9 /* Assets.xcassets */; };
 		80F5CF77261258C800C547B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F5CF76261258C800C547B9 /* Preview Assets.xcassets */; };
+<<<<<<< HEAD
 		FA46AB19261B88B500786643 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB18261B88B500786643 /* SearchBarView.swift */; };
 		FA46AB1C261BFFC400786643 /* ChefsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB1B261BFFC400786643 /* ChefsHeaderView.swift */; };
 		FA46AB21261C05B800786643 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB20261C05B800786643 /* RecipeList.swift */; };
 		FAE477DB2614FCF20096C7BD /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE477DA2614FCF20096C7BD /* RecipesView.swift */; };
 		FAE477DE26150DB80096C7BD /* RecipeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE477DD26150DB80096C7BD /* RecipeListCell.swift */; };
+=======
+		E049D219261B7432003E9E23 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049D218261B7432003E9E23 /* Events.swift */; };
+		E049D21D261BA199003E9E23 /* AgendaButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E049D21C261BA199003E9E23 /* AgendaButtonsView.swift */; };
+		E0B8F6992614E1D300A13B5B /* PageTabOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F6982614E1D300A13B5B /* PageTabOnboardingView.swift */; };
+		E0B8F69C2614E27400A13B5B /* AnimatedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F69B2614E27400A13B5B /* AnimatedBackgroundView.swift */; };
+		E0B8F69F2614E49800A13B5B /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F69E2614E49800A13B5B /* WalkthroughView.swift */; };
+		E0B8F6A22614E92B00A13B5B /* TabDetailsOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F6A12614E92B00A13B5B /* TabDetailsOnboarding.swift */; };
+		E0B8F6A92614F9D300A13B5B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F6A82614F9D300A13B5B /* Onboarding.swift */; };
+		E0B8F6BA2616AF4900A13B5B /* ButtonsOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8F6B92616AF4900A13B5B /* ButtonsOnboardingView.swift */; };
+>>>>>>> 35839c7... Onboarding screens with animation and AgendaView did finished.
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +52,22 @@
 		80F5CF73261258C800C547B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F5CF76261258C800C547B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80F5CF78261258C800C547B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		FA46AB18261B88B500786643 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		FA46AB1B261BFFC400786643 /* ChefsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefsHeaderView.swift; sourceTree = "<group>"; };
 		FA46AB20261C05B800786643 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		FAE477DA2614FCF20096C7BD /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		FAE477DD26150DB80096C7BD /* RecipeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListCell.swift; sourceTree = "<group>"; };
+=======
+		E049D218261B7432003E9E23 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		E049D21C261BA199003E9E23 /* AgendaButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaButtonsView.swift; sourceTree = "<group>"; };
+		E0B8F6982614E1D300A13B5B /* PageTabOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabOnboardingView.swift; sourceTree = "<group>"; };
+		E0B8F69B2614E27400A13B5B /* AnimatedBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackgroundView.swift; sourceTree = "<group>"; };
+		E0B8F69E2614E49800A13B5B /* WalkthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
+		E0B8F6A12614E92B00A13B5B /* TabDetailsOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetailsOnboarding.swift; sourceTree = "<group>"; };
+		E0B8F6A82614F9D300A13B5B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		E0B8F6B92616AF4900A13B5B /* ButtonsOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsOnboardingView.swift; sourceTree = "<group>"; };
+>>>>>>> 35839c7... Onboarding screens with animation and AgendaView did finished.
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,8 @@
 				8022B1142613CD9F004A5623 /* ModelData.swift */,
 				8022B1182613CDDD004A5623 /* Chef.swift */,
 				8022B11B2613CE08004A5623 /* Recipe.swift */,
+				E0B8F6A82614F9D300A13B5B /* Onboarding.swift */,
+				E049D218261B7432003E9E23 /* Events.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,7 +106,7 @@
 			children = (
 				80F5CF71261258C500C547B9 /* ContentView.swift */,
 				804572B62613ACB6004EF029 /* FeedView.swift */,
-				804572BD2613B0E6004EF029 /* AgendaView.swift */,
+				E049D21F261BA1AC003E9E23 /* Agenda */,
 				804572C02613B0F6004EF029 /* ProfileView.swift */,
 				804572C32613B162004EF029 /* ChefsView.swift */,
 				FAE477DA2614FCF20096C7BD /* RecipesView.swift */,
@@ -113,6 +137,7 @@
 		80F5CF6E261258C500C547B9 /* MasterChefClass */ = {
 			isa = PBXGroup;
 			children = (
+				E0B8F6972614E1AA00A13B5B /* Onboarding */,
 				8022B1132613CD74004A5623 /* Model */,
 				8022B1122613CD42004A5623 /* Resources */,
 				804572B92613AD23004EF029 /* View */,
@@ -130,6 +155,27 @@
 				80F5CF76261258C800C547B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E049D21F261BA1AC003E9E23 /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				804572BD2613B0E6004EF029 /* AgendaView.swift */,
+				E049D21C261BA199003E9E23 /* AgendaButtonsView.swift */,
+			);
+			name = Agenda;
+			sourceTree = "<group>";
+		};
+		E0B8F6972614E1AA00A13B5B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8F6982614E1D300A13B5B /* PageTabOnboardingView.swift */,
+				E0B8F6B92616AF4900A13B5B /* ButtonsOnboardingView.swift */,
+				E0B8F6A12614E92B00A13B5B /* TabDetailsOnboarding.swift */,
+				E0B8F69B2614E27400A13B5B /* AnimatedBackgroundView.swift */,
+				E0B8F69E2614E49800A13B5B /* WalkthroughView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0B8F6A22614E92B00A13B5B /* TabDetailsOnboarding.swift in Sources */,
+				E0B8F6992614E1D300A13B5B /* PageTabOnboardingView.swift in Sources */,
 				804572C42613B162004EF029 /* ChefsView.swift in Sources */,
 				804572B72613ACB6004EF029 /* FeedView.swift in Sources */,
 				FAE477DB2614FCF20096C7BD /* RecipesView.swift in Sources */,
@@ -209,13 +257,22 @@
 				FA46AB19261B88B500786643 /* SearchBarView.swift in Sources */,
 				FAE477DE26150DB80096C7BD /* RecipeListCell.swift in Sources */,
 				8022B1192613CDDD004A5623 /* Chef.swift in Sources */,
+				E0B8F69C2614E27400A13B5B /* AnimatedBackgroundView.swift in Sources */,
 				804572C12613B0F6004EF029 /* ProfileView.swift in Sources */,
+				E049D21D261BA199003E9E23 /* AgendaButtonsView.swift in Sources */,
 				804572BE2613B0E6004EF029 /* AgendaView.swift in Sources */,
+				E0B8F6BA2616AF4900A13B5B /* ButtonsOnboardingView.swift in Sources */,
 				8022B11C2613CE08004A5623 /* Recipe.swift in Sources */,
+				E0B8F6A92614F9D300A13B5B /* Onboarding.swift in Sources */,
+				E049D219261B7432003E9E23 /* Events.swift in Sources */,
 				80F5CF70261258C500C547B9 /* MasterChefClassApp.swift in Sources */,
 				FA46AB21261C05B800786643 /* RecipeList.swift in Sources */,
 				8022B1152613CD9F004A5623 /* ModelData.swift in Sources */,
+<<<<<<< HEAD
 				FA46AB1C261BFFC400786643 /* ChefsHeaderView.swift in Sources */,
+=======
+				E0B8F69F2614E49800A13B5B /* WalkthroughView.swift in Sources */,
+>>>>>>> 35839c7... Onboarding screens with animation and AgendaView did finished.
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MasterChefClass/Preview Content\"";
-				DEVELOPMENT_TEAM = VHG5SDJ6H6;
+				DEVELOPMENT_TEAM = 898BYM6W35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MasterChefClass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -353,7 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademypoa.MasterChefClass;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigoanhaia.MasterChefClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -367,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MasterChefClass/Preview Content\"";
-				DEVELOPMENT_TEAM = VHG5SDJ6H6;
+				DEVELOPMENT_TEAM = 898BYM6W35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MasterChefClass/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -375,7 +432,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademypoa.MasterChefClass;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigoanhaia.MasterChefClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
