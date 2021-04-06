@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct Recipe: Hashable, Codable {
-    var idRecipe: Int
+struct Recipe: Hashable, Codable, Identifiable {
+    var id: Int
     let recipeName, description: String
 
     var imageRecipe: String

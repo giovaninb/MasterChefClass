@@ -10,10 +10,16 @@ import SwiftUI
 
 struct Chef: Hashable, Codable {
     var id: Int
-    var name, imageName: String
+    var name: String
     
-    private var image: Image {
+    private var imageName: String
+    var image: Image {
         Image(imageName)
+    }
+    
+    private var imageBName: String
+    var imageB: Image {
+        Image(imageBName)
     }
     var recipe: [Recipe]
 }

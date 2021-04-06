@@ -65,7 +65,7 @@ struct FeedView: View {
                     HStack(spacing: 4) {
                         ForEach(chefs, id: \.id) { chef in
                             ZStack(alignment: .topTrailing) {
-                                Image(chef.imageName)
+                                chef.image
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 210, height: 220)

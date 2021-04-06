@@ -19,6 +19,11 @@
 		80F5CF72261258C500C547B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F5CF71261258C500C547B9 /* ContentView.swift */; };
 		80F5CF74261258C800C547B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F5CF73261258C800C547B9 /* Assets.xcassets */; };
 		80F5CF77261258C800C547B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F5CF76261258C800C547B9 /* Preview Assets.xcassets */; };
+		FA46AB19261B88B500786643 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB18261B88B500786643 /* SearchBarView.swift */; };
+		FA46AB1C261BFFC400786643 /* ChefsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB1B261BFFC400786643 /* ChefsHeaderView.swift */; };
+		FA46AB21261C05B800786643 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA46AB20261C05B800786643 /* RecipeList.swift */; };
+		FAE477DB2614FCF20096C7BD /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE477DA2614FCF20096C7BD /* RecipesView.swift */; };
+		FAE477DE26150DB80096C7BD /* RecipeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE477DD26150DB80096C7BD /* RecipeListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		80F5CF73261258C800C547B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F5CF76261258C800C547B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80F5CF78261258C800C547B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA46AB18261B88B500786643 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		FA46AB1B261BFFC400786643 /* ChefsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefsHeaderView.swift; sourceTree = "<group>"; };
+		FA46AB20261C05B800786643 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		FAE477DA2614FCF20096C7BD /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		FAE477DD26150DB80096C7BD /* RecipeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,11 @@
 				804572BD2613B0E6004EF029 /* AgendaView.swift */,
 				804572C02613B0F6004EF029 /* ProfileView.swift */,
 				804572C32613B162004EF029 /* ChefsView.swift */,
+				FAE477DA2614FCF20096C7BD /* RecipesView.swift */,
+				FA46AB18261B88B500786643 /* SearchBarView.swift */,
+				FA46AB1B261BFFC400786643 /* ChefsHeaderView.swift */,
+				FAE477DD26150DB80096C7BD /* RecipeListCell.swift */,
+				FA46AB20261C05B800786643 /* RecipeList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,13 +204,18 @@
 			files = (
 				804572C42613B162004EF029 /* ChefsView.swift in Sources */,
 				804572B72613ACB6004EF029 /* FeedView.swift in Sources */,
+				FAE477DB2614FCF20096C7BD /* RecipesView.swift in Sources */,
 				80F5CF72261258C500C547B9 /* ContentView.swift in Sources */,
+				FA46AB19261B88B500786643 /* SearchBarView.swift in Sources */,
+				FAE477DE26150DB80096C7BD /* RecipeListCell.swift in Sources */,
 				8022B1192613CDDD004A5623 /* Chef.swift in Sources */,
 				804572C12613B0F6004EF029 /* ProfileView.swift in Sources */,
 				804572BE2613B0E6004EF029 /* AgendaView.swift in Sources */,
 				8022B11C2613CE08004A5623 /* Recipe.swift in Sources */,
 				80F5CF70261258C500C547B9 /* MasterChefClassApp.swift in Sources */,
+				FA46AB21261C05B800786643 /* RecipeList.swift in Sources */,
 				8022B1152613CD9F004A5623 /* ModelData.swift in Sources */,
+				FA46AB1C261BFFC400786643 /* ChefsHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

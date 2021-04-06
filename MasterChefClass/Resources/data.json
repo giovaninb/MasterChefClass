@@ -3,6 +3,7 @@
         "id": 1001,
         "name": "Paola Carosella",
         "imageName": "paola",
+        "imageBName": "paola-carosella",
         "recipe":
         [
             {
@@ -24,6 +25,7 @@
         "id": 2001,
         "name": "Henrique Fogaça",
         "imageName": "paola",
+        "imageBName": "paola-carosella",
         "recipe":
         [
             {
@@ -45,6 +47,7 @@
         "id": 3001,
         "name": "Érick Jacquin",
         "imageName": "paola",
+        "imageBName": "paola-carosella",
         "recipe":
         [
             {
