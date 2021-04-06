@@ -24,7 +24,7 @@ struct ContentView: View {
                         Image(systemName: "square.grid.2x2")
                         Text("Feed")
                     }.tag(Tab.feed)
-                ChefsView()
+                ChefsView(chef: chefsData[0])
                     .padding()
                     .tabItem {
                         Image(systemName: "person.3.fill")

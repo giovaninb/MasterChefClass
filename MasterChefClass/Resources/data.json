@@ -13,9 +13,21 @@
             },
             {
                 "id": 102,
+                "recipeName": "Nhoque",
+                "description": "Text Text Text Text Text Text Text Text Text Text Text.",
+                "imageRecipe": "nhoque"
+            },
+            {
+                "id": 103,
                 "recipeName": "Empanada",
                 "description": "Text Text Text Text Text Text Text Text Text Text Text.",
                 "imageRecipe": "empanada"
+            },
+            {
+                "id": 104,
+                "recipeName": "Nhoque",
+                "description": "Text Text Text Text Text Text Text Text Text Text Text.",
+                "imageRecipe": "nhoque"
             }
                 
         ]
