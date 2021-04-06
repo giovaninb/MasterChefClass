@@ -22,7 +22,7 @@ struct ChefsHeaderView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: 100)
-                    chef.imageB
+                    chef.imageNoBackground
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(height: 120)

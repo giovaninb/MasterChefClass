@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct RecipesView: View {
+    let chef: Chef
+    
     var body: some View {
         VStack {
             SearchBarView(text: .constant(""))
                 .padding(.bottom, 10)
                 .padding(.horizontal, 6)
-            ChefsHeaderView(chef: chefsData[0])
-            // aqui vai a list
-            RecipeListCell(chef: chefsData[0], recipe: chefsData[0].recipe[0])
+            ChefsHeaderView(chef: chef)
+            RecipeList(recipe: chef.recipe)
         }
         .padding(.all, 0)
         .navigationBarTitle(Text("Receitas"), displayMode: .inline)
@@ -25,6 +26,15 @@ struct RecipesView: View {
 
 struct RecipesView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipesView()
+        RecipesView(chef: Chef(id: 1, name: "Paola", imageName: "paola", recipe: [
+            Recipe(id: 1,
+                   recipeName: "A",
+                   description: "b",
+                   imageRecipe: "a"),
+            Recipe(id: 2,
+                   recipeName: "fff",
+                   description: "d",
+                   imageRecipe: "ff")
+        ]))
     }
 }

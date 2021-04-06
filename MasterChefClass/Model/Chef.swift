@@ -16,10 +16,16 @@ struct Chef: Hashable, Codable {
     var image: Image {
         Image(imageName)
     }
-    
-    private var imageBName: String
-    var imageB: Image {
-        Image(imageBName)
+    var imageNoBackground: Image {
+        Image(imageName + "-no-background")
     }
+    
     var recipe: [Recipe]
+    
+    init(id: Int, name: String, imageName: String, recipe: [Recipe]) {
+        self.id = id
+        self.name = name
+        self.imageName = imageName
+        self.recipe = recipe
+    }
 }
