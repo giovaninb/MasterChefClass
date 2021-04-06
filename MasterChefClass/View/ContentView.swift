@@ -20,10 +20,10 @@ struct ContentView: View {
     @State private var percent: Float = 50.0
     
     var body: some View {
-        Group {
+        
             if isWalkthroughViewShowing {
                 WalkthroughView(isWalkthroughViewShowing: $isWalkthroughViewShowing, percent: $percent)
-                
+
             } else {
                 TabView {
                     FeedView(chefs: chefsData)
@@ -31,7 +31,7 @@ struct ContentView: View {
                             Image(systemName: "square.grid.2x2")
                             Text("Feed")
                         }.tag(1)
-                    ChefsView()
+                    ChefsView(chef: chefsData[0])
                         .padding()
                         .tabItem {
                             Image(systemName: "person.3.fill")
@@ -55,7 +55,6 @@ struct ContentView: View {
                 }
             }
 
-        }
     }
 }
 
